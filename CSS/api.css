@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(220deg 22% 16%);
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 97vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card{
+    position: relative;
+    padding: 15px;
+    max-width: 255px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: hsl(218deg 20% 24%);
+
+}
+
+.container .card h5 {
+   text-align: center;
+    color: hsl(151deg 78% 66% / 88%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.container .card p {
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.container .card .image{
+    width: 230px;
+    margin-bottom: 15px;
+}
+
+.container .card button{
+    height: 35px;
+    width: 35px;
+    background-color: hsl(151deg 78% 66%);
+    border-radius: 50%;
+    border: none;
+    display: inline-block;
+    position: absolute;
+    bottom: -18px;
+    left: 45%;
+    outline: none;
+}
+
+.container .card button:hover{
+   background-color: hsl(151deg 78% 66%);
+   box-shadow: 3px 3px 5px 6px hsl(220deg 22% 16%);
+}
+
+.container .card button img{
+    width: 15px;
+    margin-top: 5px;
+}
